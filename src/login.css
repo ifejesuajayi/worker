@@ -1,0 +1,32 @@
+#login {
+  display: flex;
+  align-items: center;
+  min-height: 88vh;
+  background: #2e3574;
+}
+#box {
+  padding: 0.938rem;
+  margin: 0 auto;
+  min-width: 20rem;
+}
+#box h2 {
+  text-align: center;
+  color: #ffffff;
+}
+#box h4 {
+  color: #ffffff;
+}
+#box input {
+  background: #d9d9d9;
+  border: 0;
+  border-radius: 3px;
+  padding: 13px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+#box p {
+  text-align: center;
+  color: #525baccf;
+  font-size: 17px;
+  cursor: pointer;
+}

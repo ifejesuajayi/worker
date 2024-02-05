@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img:not(.logo) {
+  width: 100%;
+}
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1rem;
+}
+
+/*
+=============== 
+SECTION Styles
+===============
+*/
+
+.landing {
+  background: url(./images/IndexBackground.png) center no-repeat;
+  margin-bottom: 2rem;
+}
+
+.landing div {
+  padding: 125px 70px;
+  width: 54%;
+}
+
+section div h2 {
+  color: #000000;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+section div span {
+  color: #1713c0;
+}
+section div p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4b0d0d8a;
+}
+
+section div button {
+  background: #13c044;
+  padding: 10px 40px;
+  border-radius: 35px;
+  outline: none;
+  border: 1px solid #13c044;
+  color: #ffffff;
+}
